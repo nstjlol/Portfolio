@@ -22,8 +22,6 @@ body, html {
 }
 
 .header h1 {
-  /* color:red; */
-  /* font-family: 'Oxygen', sans-serif; */
   font-weight: 300;
 }
 
@@ -60,8 +58,17 @@ h2 {
   margin-bottom: 100px;
 }
 
-.info-card-final {
+.info-card:last-child {
   background-color: rgb(235,235,235);
+  margin-bottom: 0;
+}
+
+.info-card .list-title {
+  list-style-type: none;
+}
+
+.info-card .list-title .list-item {
+  list-style-type: disc;
 }
 
 a.anchor {
@@ -79,12 +86,14 @@ a.anchor {
   .col-md-10:last-child {
     margin-top: auto;
   }
+  .col-md-5:last-child {
+    margin-top: auto;
+  }
 }
 
+
+
 .transparent-footer {
-  /* position: fixed; */
-  /* left: 0; */
-  /* bottom: 0; */
   width: 100%;
   background-color: transparent;
   color: white;

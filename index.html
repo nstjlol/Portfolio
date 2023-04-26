@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+  	<title>Nicholas St-Jacques</title>
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -9,20 +11,22 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-  	<title>My Portfolio</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
 	<!-- Fixed Header -->
 	<header class="header shadow">
 		<div class="container-fluid">
 			<div class="d-flex flex-wrap justify-content-center border-bottom border-2 border-dark">
 				<h1 class="d-flex align-items-center mb-3 me-md-auto">Nicholas St-Jacques</h1>
-				<ul class="nav nav-pills pt-2">
+				<ul id="navbar" class="nav nav-pills pt-2">
 					<li class="nav-item">
 						<a href="#about-me" class="nav-link active">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Work Experience</a>
+						<a href="#work-experience" class="nav-link">Work Experience</a>
 					</li>
 					<li class="nav-item">
 						<a href="#" class="nav-link">Skills</a>
@@ -47,8 +51,8 @@
 	<!-- About Me -->
 	<div class="container shadow info-card">
 		<a class="anchor" id="about-me"></a>
-		<div class="row p-5">
-			<div class="col-md-2">
+		<div class="row h-100 p-5">
+			<div class="col-md-2 my-auto">
 				<img src="./images/me-2048x2048.jpg" alt="Nicholas St-Jacques"class="img-fluid headshot">
 				<h2 class="text-center mt-3">
 					About Me:
@@ -74,45 +78,51 @@
 	</div>
 
 	<!-- Work Experience -->
-	<div class="container shadow info-card-final">
-		<!-- <div class="px-5 py-3 text-center">
-			Hello World!
-		</div> -->
-		<div class="row p-5">
-			<div class="col-md-2">
-				<img src="./images/me-2048x2048.jpg" alt="Nicholas St-Jacques"class="img-fluid headshot">
-				<h2 class="text-center mt-3">
-					About Me:
+	<div class="container shadow info-card">
+		<a class="anchor" id="work-experience"></a>
+		<div class="row h-100 p-5">
+			<div class="col-md-2 my-auto">
+				<h2 class="text-center pb-sm-3">
+					Work Experience:
 				</h2>
 			</div>
-			<div class="col-md-10 ps-lg-5 ps-auto">
-				<p>
-					My name is Nicholas St-Jacques, I'm a 22-year-old technology enthusiast with a deep passion for tinkering with cutting-edge tech. 
-					My love for technology can be traced back to my childhood when I spent countless hours playing video games. This hobby ignited my 
-					curiosity and propelled me to explore the world of mods to enhance my gaming experience. Through this exploration, I ventured into 
-					programming and became proficient in languages such as Lua and Python.<br><br>Determined to further develop my technical skills, I 
-					enrolled at Cambrian College to study as a Network Technician. Upon completion, I had not only acquired essential networking 
-					knowledge but also expanded my abilities in problem-solving and critical thinking. My insatiable thirst for knowledge led me to 
-					pursue further education at the same institution, this time focusing on Computer Programming and Internet of Things (IoT).<br><br>
-					During my time at Cambrian College, I have had the opportunity to work on several innovative IoT projects, allowing me to apply my 
-					programming skills to real-world applications. This hands-on experience, coupled with my strong educational background, has 
-					provided me with a solid foundation to tackle future technological challenges.<br><br>As I continue on this exciting journey, I 
-					eagerly look forward to connecting with like-minded individuals, sharing ideas, and pushing the boundaries of what technology can 
-					accomplish. Together, let's shape the world of tomorrow!
-				</p>
+			<div class="col-md-5 px-lg-1 px-auto">
+				<ul class="list-title">
+					<li><h3>Center For Smart Mining</h3></li>
+					<li><h5>Sofvie Project</h4></li>
+					<ul class="list-item">						
+						<li><p>Thing 1</p></li>
+						<li><p>Thing 2</p></li>
+						<li><p>Thing 3</p></li>
+						<li><p>Thing 4</p></li>
+						<li><p>Thing 5</p></li>
+						<li><p>Thing 6</p></li>
+					</ul>
+				</ul>
+			</div>
+			<div class="col-md-5 px-lg-1 px-auto">
+				<ul class="list-title">
+					<li><h3>Center For Smart Mining</h3></li>
+					<li><h5>Cheetah Networks Project</h4></li>
+					<ul class="list-item">						
+						<li><p>Thing 1</p></li>
+						<li><p>Thing 2</p></li>
+						<li><p>Thing 3</p></li>
+						<li><p>Thing 4</p></li>
+						<li><p>Thing 5</p></li>
+						<li><p>Thing 6</p></li>
+					</ul>
+				</ul>
 			</div>
 		</div>
 	</div>
 	
 	<!-- Transparent Footer -->
-	<div class="transparent-footer mt-4 py-5">
+	<div class="transparent-footer pb-5">
 		<div class="container text-center">
 			<p>&copy; 2023 Nicholas St-Jacques. All Rights Reserved.</p>
 		</div>
 	</div>
-  	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
