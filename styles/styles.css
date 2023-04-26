@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif, serif;
+    background-image: url('../images/cn-tower.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+  
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  padding: 1rem 0;
+  padding-left: 1rem;
+  z-index: 100;
+}
+
+.header h1 {
+  /* color:red; */
+  /* font-family: 'Oxygen', sans-serif; */
+  font-weight: 300;
+}
+
+.title {
+  padding-top: 40vh;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.title h1 {
+  font-weight: 400;
+  color:white;
+  text-shadow: 2px 2px 8px black;
+  overflow-wrap: none;
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 5vw;
+  }
+}
+
+.headshot {
+  border-radius: 50%;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.info-card {
+  background-color: rgb(235,235,235);
+  margin-bottom: 100px;
+}
+
+.info-card-final {
+  background-color: rgb(235,235,235);
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    align-items: flex-start;
+  }
+  .col-md-10:last-child {
+    margin-top: auto;
+  }
+}
+
+
+.transparent-footer {
+  /* position: fixed; */
+  /* left: 0; */
+  /* bottom: 0; */
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  z-index: 1;
+}  

@@ -1,66 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Nicholas St-Jacques</title>
-        <meta charset="utf-8">
-        <!-- Main stylesheet -->
-        <link href="/styles/main.css" rel="stylesheet">
-        <!-- Bootstrap 5 CDNs -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
-        <style>
-            
-        </style>
-    </head>
-    <script>
-        function scrollToProfile() {
-            alert("Go to Profile");
-            // Scroll to profile
-        }
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  	<title>My Portfolio</title>
+</head>
+<body>
+	<!-- Fixed Header -->
+	<header class="header shadow">
+		<div class="container-fluid">
+			<div class="d-flex flex-wrap justify-content-center border-bottom border-2 border-dark">
+				<h1 class="d-flex align-items-center mb-3 me-md-auto">Nicholas St-Jacques</h1>
+				<ul class="nav nav-pills pt-2">
+					<li class="nav-item">
+						<a href="#" class="nav-link active">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Work Experience</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Education</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
 
-        function scrollToWork() {
-            alert("Go to Work");
-            // Scroll to profile
-        }
+	<!-- Title section -->
+	<div class="container">
+		<div class="title d-flex justify-content-center">
+			<h1>Console.WriteLine("Hello World!");</h1>	
+		</div>
+	</div>
+	
+	<!-- Content -->
+	<!-- About Me -->
+	<div class="container shadow info-card">
+		<!-- <div class="px-5 py-3 text-center">
+			Hello World!
+		</div> -->
+		<div class="row p-5">
+			<div class="col-md-2">
+				<img src="./images/me-2048x2048.jpg" alt="Nicholas St-Jacques"class="img-fluid headshot">
+				<h2 class="text-center mt-3">
+					About Me:
+				</h2>
+			</div>
+			<div class="col-md-10 ps-lg-5 ps-auto">
+				<p>
+					My name is Nicholas St-Jacques, I'm a 22-year-old technology enthusiast with a deep passion for tinkering with cutting-edge tech. 
+					My love for technology can be traced back to my childhood when I spent countless hours playing video games. This hobby ignited my 
+					curiosity and propelled me to explore the world of modding to enhance my gaming experience. Through this exploration, I ventured into 
+					programming and began learning languages such as Lua and Python.<br><br>Determined to further develop my technical skills, I 
+					enrolled at Cambrian College to study as a Network Technician. Upon completion, I had not only acquired essential networking 
+					knowledge but also expanded my abilities in problem-solving and critical thinking. My insatiable thirst for knowledge led me to 
+					pursue further education Cambrian, this time focusing on Computer Programming and Internet of Things (IoT).<br><br>
+					During my time at Cambrian College, I have had the opportunity to work on several innovative IoT projects, allowing me to apply my 
+					programming skills to real-world applications. This hands-on experience, coupled with my strong educational background, has 
+					provided me with a solid foundation to tackle future technological challenges.<br><br>As I continue on this exciting journey, I 
+					eagerly look forward to connecting with like-minded individuals, sharing ideas, and pushing the boundaries of what technology can 
+					accomplish. <b>Together, let's shape the world of tomorrow!</b>
+				</p>
+			</div>
+		</div>
+	</div>
 
-        function scrollToSkills() {
-            alert("Go to Skills");
-            // Scroll to profile
-        }
-
-        function scrollToEducation() {
-            alert("Go to Education");
-            // Scroll to profile
-        }
-    </script>
-    <body>
-        <!-- Header -->
-        <header class="header-background fixed-header d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" onclick="scrollToProfile()"  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <h1 class="ms-3">Nicholas St-Jacques</h1>
-            </a>
-            <ul class="nav nav-pills py-2">
-                <li class="nav-item"><a href="#" onclick="scrollToProfile()" class="nav-link active" aria-current="page">About Me</a></li>
-                <li class="nav-item"><a href="#" onclick="scrollToWork()" class="nav-link">Work Experience</a></li>
-                <li class="nav-item"><a href="#" onclick="scrollToSkills()" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#" onclick="scrollToEducation()" class="nav-link">Education</a></li>
-            </ul>
-        </header>
-        <div class="title">Nicholas St-Jacques</div>
-
-        <div class="main container-sm container-fluid"></div>
-            <div class="row">
-                <div class="mx-auto col-md-9 col-12">
-                    <h1 class="text-center">Hello!</h1>
-                </div>
-            </div>
-        </div>
-        <footer>
-        
-        </footer>
-    </body>
+	<!-- Work Experience -->
+	<div class="container shadow info-card-final">
+		<!-- <div class="px-5 py-3 text-center">
+			Hello World!
+		</div> -->
+		<div class="row p-5">
+			<div class="col-md-2">
+				<img src="./images/me-2048x2048.jpg" alt="Nicholas St-Jacques"class="img-fluid headshot">
+				<h2 class="text-center mt-3">
+					About Me:
+				</h2>
+			</div>
+			<div class="col-md-10 ps-lg-5 ps-auto">
+				<p>
+					My name is Nicholas St-Jacques, I'm a 22-year-old technology enthusiast with a deep passion for tinkering with cutting-edge tech. 
+					My love for technology can be traced back to my childhood when I spent countless hours playing video games. This hobby ignited my 
+					curiosity and propelled me to explore the world of mods to enhance my gaming experience. Through this exploration, I ventured into 
+					programming and became proficient in languages such as Lua and Python.<br><br>Determined to further develop my technical skills, I 
+					enrolled at Cambrian College to study as a Network Technician. Upon completion, I had not only acquired essential networking 
+					knowledge but also expanded my abilities in problem-solving and critical thinking. My insatiable thirst for knowledge led me to 
+					pursue further education at the same institution, this time focusing on Computer Programming and Internet of Things (IoT).<br><br>
+					During my time at Cambrian College, I have had the opportunity to work on several innovative IoT projects, allowing me to apply my 
+					programming skills to real-world applications. This hands-on experience, coupled with my strong educational background, has 
+					provided me with a solid foundation to tackle future technological challenges.<br><br>As I continue on this exciting journey, I 
+					eagerly look forward to connecting with like-minded individuals, sharing ideas, and pushing the boundaries of what technology can 
+					accomplish. Together, let's shape the world of tomorrow!
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Transparent Footer -->
+	<div class="transparent-footer mt-4 py-5">
+		<div class="container text-center">
+			<p>&copy; 2023 Nicholas St-Jacques. All Rights Reserved.</p>
+		</div>
+	</div>
+  	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
+
+<!-- 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare elit hendrerit tincidunt fringilla.
+		Pellentesque tempor mi a gravida tempus. Donec vel rhoncus dui, bibendum volutpat nunc.
+		Fusce sit amet augue turpis. Mauris et fringilla odio. In hac habitasse platea dictumst.
+		Morbi non finibus ante. Nulla facilisi.Integer vitae urna euismod, aliquam nibh eget, volutpat mi.
+		Morbi molestie sapien dapibus, vehicula diam non, aliquet mauris.
+		Sed massa lectus, pretium eget facilisis eu, bibendum id leo. Nullam facilisis id elit ut vulputate.
+		Suspendisse potenti. Cras mattis sollicitudin metus vehicula porta. Nullam id posuere risus.
+		Quisque efficitur velit a fermentum commodo. Nunc sit amet diam ex. Nulla id libero eget tellus lacinia ornare.
+		Vestibulum posuere neque sapien, eu rutrum eros tincidunt sit amet.
+		Nunc varius, nunc a interdum eleifend, dolor felis vestibulum tellus, ac pretium erat lacus ornare arcu.
+		Vestibulum ac mauris diam. Etiam dictum metus non ligula suscipit, vitae fermentum ligula accumsan.
+		Maecenas ut tempus nulla. Nunc sodales ut leo vitae aliquam. Etiam euismod interdum felis vitae vestibulum.
+		Nunc tincidunt accumsan sollicitudin. Etiam sodales orci laoreet orci dignissim, eu malesuada eros interdum.
+		Integer et lectus id lacus viverra varius. Pellentesque fermentum, velit nec venenatis porta,
+		risus orci rhoncus neque, ac tempor augue metus eget enim. Sed mollis ante felis.
+		Cras ac neque a odio ultricies eleifend. Duis a tellus porttitor, commodo ex in, viverra velit.
+		Cras tincidunt nunc ac lectus accumsan tristique. Aliquam cursus leo nisl, et vehicula tellus elementum in.
+		Ut arcu elit, viverra at placerat ut, ornare sed lorem. Curabitur blandit auctor dictum.
+		Morbi blandit, lacus sed scelerisque placerat, purus sem posuere eros, id commodo nisl neque et diam.
+		Donec sed sodales libero, et finibus sem. Curabitur fringilla dictum neque,
+		id hendrerit erat ornare eu. Aenean ultricies nulla libero, non dapibus dolor faucibus sed.
+		Vivamus viverra elit justo, eget porttitor est vestibulum ac. Donec venenatis ipsum eu nibh fermentum ultrices.
+		Phasellus congue in sem eget posuere. Vivamus euismod velit nec blandit ornare. Donec ac mattis lectus, vel imperdiet libero.
+		In hac habitasse platea dictumst. Mauris a justo sit amet nibh lobortis congue non nec quam. Donec pharetra dictum feugiat.
+		Vestibulum in massa a dolor fringilla cursus. Donec ornare eget magna non sollicitudin. -->
