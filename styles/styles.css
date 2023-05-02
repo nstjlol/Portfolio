@@ -49,18 +49,14 @@ body, html {
   border-radius: 50%;
 }
 
-h2 {
-  font-weight: 700;
-}
-
 .info-card {
   background-color: rgb(235,235,235);
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .info-card:last-child {
   background-color: rgb(235,235,235);
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .info-card .list-title {
@@ -69,6 +65,38 @@ h2 {
 
 .info-card .list-title .list-item {
   list-style-type: disc;
+}
+
+.info-card h2 {
+  font-family: 'Oxygen', sans-serif, serif;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .info-card h2 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .info-card h2 {
+    font-size: 28px;
+  }
+}
+
+.info-card h3 {
+  font-family: 'Oxygen', sans-serif, serif;
+  font-weight: 700;
+}
+
+.info-card h5 {
+  font-family: 'Oxygen', sans-serif, serif;
+  font-weight: 400;
+}
+
+.info-card p {
+  font-family: 'Oxygen', sans-serif, serif;
+  font-weight: 200;
 }
 
 a.anchor {
@@ -116,4 +144,9 @@ a.anchor {
 
 .material-symbols-outlined:hover {
   transform: translateY(-10px) scale(1.5);
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 3em;
 }
