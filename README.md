@@ -17,7 +17,7 @@ Contact section so visitors can get in touch with you
 To get a local copy of this project up and running, follow these steps:
 
 Clone the repository to your local machine using the following command:
-`git clone https://github.com/your-username/your-repo.git](https://github.com/nstjlol/Portfolio.git`
+`git clone https://github.com/nstjlol/Portfolio.git`
 
 Navigate into the project directory:
 `cd your-repo`
