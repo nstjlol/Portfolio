@@ -150,3 +150,10 @@ a.anchor {
   text-decoration: none;
   font-size: 3em;
 }
+
+@media (max-width: 767px) {
+  .icon-link {
+    text-decoration: none;
+    font-size: 2em;
+  }
+}
