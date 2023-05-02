@@ -21,8 +21,11 @@ body, html {
   z-index: 100;
 }
 
-.header h1 {
+.header .site-title {
   font-weight: 300;
+  text-decoration: none;
+  color:black;
+  display: inline-block;
 }
 
 .title {
