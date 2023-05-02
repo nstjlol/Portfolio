@@ -97,6 +97,11 @@ body, html {
   font-weight: 700;
 }
 
+.info-card h4 {
+  font-family: 'Oxygen', sans-serif, serif;
+  font-weight: 700;
+}
+
 .info-card h5 {
   font-family: 'Oxygen', sans-serif, serif;
   font-weight: 400;
