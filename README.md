@@ -2,7 +2,7 @@
 This repository contains the source code for my personal portfolio website built with HTML, CSS, and Bootstrap. It showcases my skills, projects, and provides information about me.
 
 ## Preview
-[Insert a screenshot or GIF here that shows a preview of your portfolio website]
+[Insert a GIF of website once complete]
 
 ## Live Demo
 You can see a live demo of my portfolio website [here](https://www.nicholasstjacques.ca).
