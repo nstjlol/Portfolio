@@ -14,7 +14,7 @@ You can see a live demo of my portfolio website [here](https://www.nicholasstjac
 - Contact section so visitors can get in touch with you
 
 ## Getting Started
-To get a local copy of this project up and running, follow these steps:
+### To get a local copy of this project up and running, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
 
@@ -35,7 +35,7 @@ To get a local copy of this project up and running, follow these steps:
         `google-chrome --vew-window "index.html"`
 
 ## Customization
-You can customize the portfolio website to match your own preferences and content. Here are some steps to guide you:
+### You can customize the portfolio website to match your own preferences and content. Here are some steps to guide you:
 
 1. Open the project in a text editor or an IDE of your choice.
 
@@ -46,7 +46,7 @@ You can customize the portfolio website to match your own preferences and conten
 4. Optionally, you can also modify the Bootstrap classes and components to further customize the design.
 
 ## Deployment
-To deploy your portfolio website, you can use any static hosting service, such as GitHub Pages, Netlify, or Vercel. Here's an example of how to deploy with GitHub Pages:
+### To deploy your portfolio website, you can use any static hosting service, such as GitHub Pages, Netlify, or Vercel. Here's an example of how to deploy with GitHub Pages:
 
 1. Create a new repository on Github.
 
