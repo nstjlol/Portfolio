@@ -28,11 +28,11 @@ You can see a live demo of my portfolio website [here](https://www.nicholasstjac
 
     Windows:
 
-        `start chrome "index.html"`
+        start chrome "index.html"
 
     Linux:
 
-        `google-chrome --vew-window "index.html"`
+        google-chrome --vew-window "index.html"
 
 ## Customization
 ### You can customize the portfolio website to match your own preferences and content. Here are some steps to guide you:
