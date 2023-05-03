@@ -88,4 +88,4 @@ To deploy your portfolio website, you can use any static hosting service, such a
 
 This project is licensed under the terms of the [MIT License](LICENSE.md).
 
-Copyright &copy 2023 Nicholas St-Jacques
+Copyright © 2023 Nicholas St-Jacques
