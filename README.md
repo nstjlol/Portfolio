@@ -18,11 +18,11 @@ You can see a live demo of my portfolio website [here](https://www.nicholasstjac
 
 1. Clone the repository to your local machine using the following command:
 
-    `git clone https://github.com/nstjlol/Portfolio.git`
+        git clone https://github.com/nstjlol/Portfolio.git
 
 2. Navigate into the project directory:
 
-    `cd your-repo`
+        cd your-repo
 
 3. Open the index.html file in your preferred web browser.
 
@@ -52,15 +52,15 @@ You can see a live demo of my portfolio website [here](https://www.nicholasstjac
 
 2. Clone your new repository:
 
-    `git clone <your_repository_url>`
+        git clone <your_repository_url>
 
 3. Navigate to the portfolio repository:
 
-    `cd portfolio`
+        cd portfolio
 
 4. Configure remotes
 
-    `git remote set-url origin <your_repository_url>`
+        git remote set-url origin <your_repository_url>
 
 5. Push your changes to the repository:
     ```
