@@ -86,10 +86,6 @@ To deploy your portfolio website, you can use any static hosting service, such a
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPLv3) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the terms of the [MIT License](LICENSE.md).
 
-AGPLv3 is a free, copyleft license for software and other kinds of works, which allows you to use, modify, and distribute the project under certain conditions. If you modify and distribute the software, you are required to disclose the source code of your modified version, and you must also license your modifications under the AGPLv3.
-
-Please note that this license does not cover third-party components and libraries used in this project, which may have their own respective licenses. Be sure to check the licenses of these dependencies and comply with their terms.
-
-Copyright %copy 2023 Nicholas St-Jacques
+Copyright &copy 2023 Nicholas St-Jacques
